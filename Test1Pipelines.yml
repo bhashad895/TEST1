@@ -9,10 +9,7 @@ resources:
     name: bashad895/MyTest
 
 
-steps:
-- checkout: testrepo
-  path: 'MyTest'
-- template: /MyTest/Nesttest.yaml@testrepo
+
    
 
 
