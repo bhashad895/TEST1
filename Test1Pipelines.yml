@@ -7,7 +7,6 @@ resources:
     type: gitHub
     endpoint: MyTest
     name: bashad895/TEST1
-    ref: main
 
 
 
