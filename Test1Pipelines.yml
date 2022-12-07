@@ -4,7 +4,7 @@ pr: none
 resources:
   repositories:
   - repository: testrepo
-    type: git
+    type: gitHub
     endpoint: MyTest
     name: bashad895/TEST1
     ref: main
