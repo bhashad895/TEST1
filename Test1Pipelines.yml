@@ -6,13 +6,13 @@ resources:
   - repository: testrepo
     type: git
     endpoint: MyTest
-    name: bashad895/TEST1
-    ref: master
+    name: bashad895/MyTest
+    ref: main
 
 steps:
 - checkout: testrepo
   path: 'MyTest'
-- template: MyTest/Nesttest.yaml
+- template: MyTest/Nesttest.yaml@testrepo
    
 
 
