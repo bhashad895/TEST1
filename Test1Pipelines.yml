@@ -9,6 +9,12 @@ resources:
     name: bashad895/TEST1
     ref: master
 
+steps:
+- checkout: testrepo
+  path: 'MyTest'
+- template: MyTest/Nesttest.yaml
+   
+
 
 
 
