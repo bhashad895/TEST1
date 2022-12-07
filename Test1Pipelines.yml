@@ -9,10 +9,6 @@ resources:
     name: bashad895/TEST1
     ref: main
 
-extends:
-  template: /MyTest/nesttest.yaml@testrepo
-  parameters:
-      buildType: 'CI'  
-      agentPool: 'gdi-agents-pool-azvm-dev'
+
 
 
