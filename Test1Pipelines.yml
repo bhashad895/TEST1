@@ -7,8 +7,12 @@ resources:
     type: git
     endpoint: MyTest
     name: bashad895/TEST1
-    
+    ref: main
 
 extends:
-  template: /nesttest.yaml@testrepo
+  template: /MyTest/nesttest.yaml@testrepo
+  parameters:
+      buildType: 'CI'  
+      agentPool: 'gdi-agents-pool-azvm-dev'
+
 
