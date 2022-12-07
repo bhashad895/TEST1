@@ -12,7 +12,7 @@ resources:
 steps:
 - checkout: testrepo
   path: 'MyTest'
-- template: MyTest/Nesttest.yaml@testrepo
+- template: /MyTest/Nesttest.yaml@testrepo
    
 
 
